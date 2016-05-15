@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+	font-color: black;
+}
+#popular_links a:hover {
+    text-decoration: underlined;
+	font-color: black;
+}
+
+#popular_links {
+    text-align: right;
+	height:20%
+}
+#search_form {
+	font-family: Courier New;
+	margin: 0 20%;
+	clear: both;
+    width: 60%;
+	height:60%
+}
+h1 {
+	color: red;
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+ }
+h2 {
+	color: blue;
+	font-size: 2em;
+    text-align: right;
+ }
+form {
+	
+	margin: 0 30%;
+}
+.search_buttons {
+    border-style: none;
+	text-decoration: none;
+}
+.search_buttons:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;	
+}
+.search_buttons:link  {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;	
+}
+footer {	
+	margin: 0 0; 
+	height:20%
+ }
+#left_side_footer {
+    text-align: left;
+}
+#right_side_footer {
+    text-align: right;
+}
+/* <body>
+	<div id="popular_links">
+		<a href="">Почта</a>
+		<a href="">Картинки</a>
+		<a href="">...</a>
+		<a href="">Войти</a>
+		
+	</div>
+	<div id="search_form">
+		<h1>Your favorite search engine</h1>
+		<h2>Россия</h2>
+		<form action="" method="post">
+			<p><input type="text" name="search_line"></p>
+			<p>
+				<input type="submit"  name="standart_search" value="Поиск" class="search_buttons">
+				<a href="" class="search_buttons">Мне повезет!</a>
+			</p>
+		</form>
+	<div>
+	<footer>
+		<p>
+			<span class="left_side_footer"><a href="">Реклама</a></span>
+			<span class="left_side_footer"><a href="">Для бизнеса</a></span>
+			<span class="left_side_footer"><a href="">Все о системе</a></span>
+			<span class="right_side_footer"><a href="">Конфиденциальность</a></span>
+			<span class="right_side_footer"><a href="">Условия</a></span>
+			<span class="right_side_footer"><a href="">Настройки</a></span>
+			<span class="right_side_footer"><a href="">Перейти на сайт компании</a></span>
+		</p>
+	</footer>
+
+</body> */
